@@ -19,9 +19,9 @@ const [menuToggle, setMenuToggle] = useState(false);
         absolute backdrop-blur bg-black/10 mt-[4.4rem] ml-[-1.5rem] h-full w-[13rem] rounded-b-md font-mono text-xl text-center text-white py-2 z-50
         ${menuToggle ? '':"hidden"}`}
         >
-            <li class='py-4'>Directions</li>
-            <li class='py-4'>Event Calander</li>
-            <li class='py-4'>About</li>
+            <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'>Directions</li>
+            <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'>Event Calander</li>
+            <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'>About</li>
         </ul>
         <div class='relative self-center w-8 h-10'>
             <img 
