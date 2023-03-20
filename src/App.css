@@ -1,1 +1,27 @@
+.business{
+    background-image: url('https://i.imgur.com/djyd0Vh.png?1');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    margin-top: -0.5rem;
+}
+.business::before{
+    content: '';
+    height: 0;
+    width: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent; 
+    border-top: 8px solid rgba(131, 131, 131, 0.833);
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 43%;
+}
 
+.nav{
+    background-image: url('https://i.imgur.com/HqEtOzx.png?1');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
