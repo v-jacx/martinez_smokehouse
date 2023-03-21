@@ -139,7 +139,7 @@ export const Directions = () => {
         <div ref={mapElement} class='h-screen w-full border-stone-400 border-t-2 relative sm:h-[45rem]'/>
 
       { guidanceInstructions.length !==0 ?  
-      <div class='absolute flex flex-col content-center gap-3  h-screen bg-white mr-[70%] w-[30%] mt-[0.13rem] pt-16'>
+      <div class='absolute flex flex-col content-center gap-3 h-[45%] mt-[76.5%] md:h-screen bg-white md:mr-[70%] md:w-[30%] w-full md:mt-[0.13rem] pt-5 md:pt-16 overflow-y-auto '>
         { guidanceInstructions.map((instruction)=>(
           <InstructionCard instruction={instruction.message}/>
         ))}

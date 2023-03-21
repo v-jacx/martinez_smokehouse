@@ -28,10 +28,14 @@ const [menuToggle, setMenuToggle] = useState(false);
             <Link to='/'>
               <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md' onClick={()=>setMenuToggle(false)}>Home</li>
             </Link>
+
             <Link to='/directions'>
               <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'  onClick={()=>setMenuToggle(false)}>Directions</li>
             </Link>
-            <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'  onClick={()=>setMenuToggle(false)}>Event Calander</li>
+
+            <a href='/#events'>
+              <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'  onClick={()=>setMenuToggle(false)}>Event Calander</li>
+            </a>
             <li class='py-4 hover:bg-black/20 md:hover:px-5 rounded-md'  onClick={()=>setMenuToggle(false)}>About</li>
         </ul>
 
